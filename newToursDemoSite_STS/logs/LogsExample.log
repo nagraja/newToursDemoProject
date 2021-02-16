@@ -1,0 +1,6 @@
+[INFO ] 2021-02-06 09:42:48.928 [main] log4jReference - log4j info Log Option Test
+[ERROR] 2021-02-06 09:42:48.933 [main] log4jReference - log4j error Log Option Test
+[WARN ] 2021-02-06 09:42:48.933 [main] log4jReference - log4j warn Log Option Test
+[INFO ] 2021-02-15 18:45:35.429 [main] log4jReference - log4j info Log Option Test
+[ERROR] 2021-02-15 18:45:35.437 [main] log4jReference - log4j error Log Option Test
+[WARN ] 2021-02-15 18:45:35.438 [main] log4jReference - log4j warn Log Option Test

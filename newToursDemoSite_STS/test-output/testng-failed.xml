@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="TE_Value" value="TestingInChromeBrowser"/>
+  <parameter name="BTN" value="Edge"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testScripts.newToursSignInValidation_Script">
+        <methods>
+          <include name="TearDown"/>
+          <include name="Open_And_LaunchApp"/>
+          <include name="SignIn"/>
+          <include name="setup_Fun"/>
+        </methods>
+      </class> <!-- testScripts.newToursSignInValidation_Script -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
