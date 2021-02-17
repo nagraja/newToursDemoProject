@@ -169,7 +169,7 @@ public class baseRunner
     
 		if (Selected_BT.equals("Chrome"))
     	{
-			System.setProperty("webdriver.chrome.driver", "C:\\Eclipse_WorkSpace\\Browsers_Drivers\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", ProjectRelativePath_Value+"\\src\\test\\resources\\browsersDrivers\\chromedriver.exe");
 			DriverOBJ = new ChromeDriver();
 			DriverOBJ.manage().window().maximize();
 			System.out.println("Expected Browser*** "+Selected_BT+" *** Launched");
@@ -177,7 +177,7 @@ public class baseRunner
 		
 		if (Selected_BT.equals("Firefox"))
     	{
-			System.setProperty("webdriver.gecko.driver", "C:\\Eclipse_WorkSpace\\Browsers_Drivers\\geckodriver-v0.28.0-win64\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", ProjectRelativePath_Value+"\\src\\test\\resources\\browsersDrivers\\geckodriver.exe");
 			DriverOBJ = new FirefoxDriver();
 			DriverOBJ.manage().window().maximize();
 			System.out.println("Expected Browser*** "+Selected_BT+" *** Launched");
@@ -185,7 +185,7 @@ public class baseRunner
 		
 		if (Selected_BT.equals("Edge"))
     	{
-			System.setProperty("webdriver.edge.driver", "C:\\Eclipse_WorkSpace\\Browsers_Drivers\\edgedriver_win64\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", ProjectRelativePath_Value+"\\src\\test\\resources\\browsersDrivers\\msedgedriver.exe");
 			DriverOBJ = new EdgeDriver();
 			DriverOBJ.manage().window().maximize();
 			System.out.println("Expected Browser*** "+Selected_BT+" *** Launched");
