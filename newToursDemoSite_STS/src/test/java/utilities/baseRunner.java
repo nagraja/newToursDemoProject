@@ -29,9 +29,6 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import appPages.newToursDemoSite_Home_Page;
 
-//import appPages.newToursDemoSite_Home_Page;
-
-
 public class baseRunner 
 {
 	public static String BrowserType_Value;

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-17T13:07:34 EST" name="Suite" finished-at="2021-02-17T13:07:45 EST" duration-ms="11570">
+  <suite started-at="2021-02-17T20:12:04 EST" name="Suite" finished-at="2021-02-17T20:12:18 EST" duration-ms="14524">
     <groups>
     </groups>
-    <test started-at="2021-02-17T13:07:34 EST" name="Test" finished-at="2021-02-17T13:07:45 EST" duration-ms="11570">
+    <test started-at="2021-02-17T20:12:04 EST" name="Test" finished-at="2021-02-17T20:12:18 EST" duration-ms="14524">
       <class name="testScripts.newToursSignInValidation_Script">
-        <test-method is-config="true" signature="setup_Fun(java.lang.String, java.lang.String)[pri:0, instance:testScripts.newToursSignInValidation_Script@74e52303]" started-at="2021-02-17T13:07:27 EST" name="setup_Fun" finished-at="2021-02-17T13:07:34 EST" duration-ms="6678" status="PASS">
+        <test-method is-config="true" signature="setup_Fun(java.lang.String, java.lang.String)[pri:0, instance:testScripts.newToursSignInValidation_Script@74e52303]" started-at="2021-02-17T20:11:59 EST" name="setup_Fun" finished-at="2021-02-17T20:12:04 EST" duration-ms="5007" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup_Fun -->
-        <test-method is-config="true" signature="Open_And_LaunchApp()[pri:0, instance:testScripts.newToursSignInValidation_Script@74e52303]" started-at="2021-02-17T13:07:34 EST" name="Open_And_LaunchApp" finished-at="2021-02-17T13:07:42 EST" duration-ms="7973" status="PASS">
+        <test-method is-config="true" signature="Open_And_LaunchApp()[pri:0, instance:testScripts.newToursSignInValidation_Script@74e52303]" started-at="2021-02-17T20:12:04 EST" name="Open_And_LaunchApp" finished-at="2021-02-17T20:12:07 EST" duration-ms="3272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Open_And_LaunchApp -->
-        <test-method signature="SignIn()[pri:0, instance:testScripts.newToursSignInValidation_Script@74e52303]" started-at="2021-02-17T13:07:42 EST" name="SignIn" finished-at="2021-02-17T13:07:45 EST" duration-ms="2986" status="PASS">
+        <test-method signature="SignIn()[pri:0, instance:testScripts.newToursSignInValidation_Script@74e52303]" started-at="2021-02-17T20:12:07 EST" name="SignIn" finished-at="2021-02-17T20:12:18 EST" duration-ms="10694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignIn -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testScripts.newToursSignInValidation_Script@74e52303]" started-at="2021-02-17T13:07:45 EST" name="TearDown" finished-at="2021-02-17T13:07:45 EST" duration-ms="576" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testScripts.newToursSignInValidation_Script@74e52303]" started-at="2021-02-17T20:12:18 EST" name="TearDown" finished-at="2021-02-17T20:12:18 EST" duration-ms="517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
